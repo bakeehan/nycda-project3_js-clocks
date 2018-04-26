@@ -21,13 +21,21 @@ function passClock() {
 		var hour = "0" + hour.toString()
 	}
 
-	// console.log(second)
-
-	container.innerHTML = (hour.toString() + minute.toString() + second.toString());
+	container.innerHTML = "<h1> #"+ (hour.toString() + minute.toString() + second.toString()) + "</h1>";
 
 	let color = (hour.toString() + minute.toString() + second.toString());
 	console.log("#" + color);
-	container.style.backgroundColor = "#" + color;
+	document.body.style.backgroundColor = "#" + color;
+
+	var half = "am";
+
+	if (hour > 12) {
+		var hour = (hour-12);
+		var half = "pm";
+	}
+
+	let twelveTime = (hour.toString() + ":" + minute.toString());
+	container.innerHTML += "It is <b>" + (hour.toString() + ":" + minute.toString()) + half +"</b>.";
 }
 
 passClock();
