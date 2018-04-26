@@ -1,0 +1,1 @@
+// The greeting display clock that displays a random background image to the user with the time and a custom greeting based on the time of day. Ex: “Good morning”
