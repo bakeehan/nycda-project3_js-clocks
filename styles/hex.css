@@ -1,1 +1,3 @@
 /*The hex clock is a hex code that reflects the time of day in #hhmmss format instead of hh:mm:ss format. The background color of the screen is then changed based on the hex code which is created by the current time.*/
+
+/* container div needs to show on different shades: probably black w white border+text */
