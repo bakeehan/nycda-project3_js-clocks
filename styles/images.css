@@ -2,7 +2,7 @@
 
 body {
 	background-size: cover;
-	background-position: middle;
+	background-position: center top;
 	background-repeat:no-repeat;
 }
 
@@ -13,4 +13,10 @@ body {
 .clock h1 {
 	font-size: 1.25em;
 	margin: 10px 0 20px;
+}
+
+@media all and (max-width: 950px) {
+	body {
+		background-size: auto 900px;
+	}
 }

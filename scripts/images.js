@@ -17,7 +17,7 @@ function passClock() {
 		document.body.style.backgroundImage = "url('images/morning.jpeg')";
 		var greeting = "Good morning!";
 	} else if (hour >11 && hour <18) {
-		document.body.style.backgroundImage = "url('images/afternoon.jpeg')";
+		document.body.style.backgroundImage = "url('images/afternoon.jpg')";
 		// document.body.setAttribute("style", "background-image: url('images/afternoon.jpeg')");
 		var greeting = "Good afternoon!";
 	} else if (hour >17 && hour <21) {
