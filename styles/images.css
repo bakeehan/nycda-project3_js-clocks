@@ -1,1 +1,16 @@
 /*The greeting display clock that displays a random background image to the user with the time and a custom greeting based on the time of day. Ex: “Good morning”*/
+
+body {
+	background-size: cover;
+	background-position: middle;
+	background-repeat:no-repeat;
+}
+
+.clock {
+	font-size:1.75em;
+}
+
+.clock h1 {
+	font-size: 1.25em;
+	margin: 10px 0 20px;
+}

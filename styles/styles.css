@@ -11,3 +11,35 @@
     text-align:center;
     padding:10px;
 }
+
+
+.clock {
+	background-color: black;
+	border: 10px double white;
+	color: grey;
+	font-family: 'Source Code Pro', monospace;
+}
+
+.clock h1, .clock b {
+	letter-spacing: .25em;
+	color: white;
+}
+
+.clock b {
+	font-variant: small-caps;
+	font-weight: normal;
+}
+
+@media all and (max-width: 768px) {
+
+	.clock {
+		margin-top:0;
+		bottom: auto;
+		width:100%;
+		border:none;
+		border-bottom: 10px double white;
+		font-size: 1.5em;
+		height:190px;
+	}
+
+}
